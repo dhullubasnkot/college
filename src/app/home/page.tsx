@@ -10,13 +10,13 @@ const slides = [
     title: "Education is the best key success in life",
     description:
       "Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.",
-    image: "/lec.jpeg",
+    image: "/banner.jpg",
   },
   {
     title: "Achieve Excellence with Quality Learning",
     description:
       "Grow with us in a vibrant learning environment tailored for your academic success.",
-    image: "/2.png",
+    image: "/banner2.jpg",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function HeroCarousel() {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div
-              className="w-full h-full bg-cover bg-center flex items-center justify-start"
+              className="w-full h-full bg-cover bg-center flex items-center justify-start "
               style={{ backgroundImage: `url(${slide.image})` }}
             >
               <div className="ml-16 md:ml-32 max-w-2xl  bg-opacity-60 p-6 md:p-10 rounded-md text-white">

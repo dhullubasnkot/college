@@ -3,9 +3,9 @@ import { MdCall, MdEmail } from "react-icons/md";
 
 export default function Header() {
   return (
-    <div className="bg-gradient-to-r from-orange-500 to-cyan-700 text-white text-sm">
-      <div className="max-w-screen-xl mx-auto px-4 py-2 flex justify-between items-center">
-        <div className="flex items-center gap-3">
+    <div className="bg-gradient-to-r from-orange-500 to-cyan-700 text-white text-sm ">
+      <div className="max-w-screen-xl mx-auto px-4 py-2 flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
+        <div className="flex flex-wrap justify-center sm:justify-start items-center gap-2 sm:gap-3">
           <span className="font-semibold">Follow us:</span>
           <a href="#" className="hover:text-yellow-300 transition">
             <FaFacebook />
@@ -21,13 +21,13 @@ export default function Header() {
           </a>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-xs sm:text-sm">
           <div className="flex items-center gap-1">
-            <MdCall className="text-lg" />
+            <MdCall className="text-base" />
             <span>+97798000000</span>
           </div>
           <div className="flex items-center gap-1">
-            <MdEmail className="text-lg" />
+            <MdEmail className="text-base" />
             <span>Lumbinieng2048@gmail.com</span>
           </div>
         </div>

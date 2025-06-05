@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export function Navbar1() {
   return (
-    <Navbar fluid rounded className="">
+    <Navbar fluid rounded className="bg-transparent">
       <NavbarBrand as={Link} href="https://flowbite-react.com">
         <Image
           src="/logo.png"
