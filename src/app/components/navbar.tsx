@@ -22,7 +22,7 @@ export function Navbar1() {
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="#" active>
+        <NavbarLink href="#" active className="">
           Home
         </NavbarLink>
         <NavbarLink as={Link} href="#">

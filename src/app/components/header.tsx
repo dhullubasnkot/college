@@ -3,7 +3,7 @@ import { MdCall, MdEmail } from "react-icons/md";
 
 export default function Header() {
   return (
-    <div className="bg-gradient-to-r from-orange-500 to-cyan-700 text-white text-sm ">
+    <div className="bg-gradient-to-r from-[#0A3D62] to-cyan-700 text-white text-sm ">
       <div className="max-w-screen-xl mx-auto px-4 py-2 flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
         <div className="flex flex-wrap justify-center sm:justify-start items-center gap-2 sm:gap-3">
           <span className="font-semibold">Follow us:</span>

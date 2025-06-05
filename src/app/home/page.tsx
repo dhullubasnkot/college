@@ -33,12 +33,12 @@ export default function HeroCarousel() {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div
-              className="w-full h-full bg-cover bg-center flex items-center justify-start "
+              className="w-full h-full bg-cover bg-center flex items-center justify-start  "
               style={{ backgroundImage: `url(${slide.image})` }}
             >
-              <div className="ml-16 md:ml-32 max-w-2xl  bg-opacity-60 p-6 md:p-10 rounded-md text-white">
+              <div className="ml-16 md:ml-32 max-w-2xl  bg-opacity-60 p-6 md:p-10 rounded-md text-white ">
                 <p className="text-sm uppercase tracking-widest mb-2">
-                  Welcome to Qeducato
+                  Welcome to Lumbini Enginnering
                 </p>
                 <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
                   {slide.title}

@@ -13,7 +13,7 @@ export default function Footer() {
                 Subscribe for Newsletter
               </h2>
               <p className="text-sm text-gray-200">
-                Manage Your Business With Our Software
+                Get Notified From College Department
               </p>
             </div>
           </div>
